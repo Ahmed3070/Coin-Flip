@@ -34,6 +34,11 @@ button {
 }
 .headsClass {
     background-image:url(heads.jpeg);
+    background-size:cover;
+    background-position:center;
+    height: max-content;
+    width: max-content;
+    background-repeat:no-repeat;
 }
 .animate-heads {
     animation:flipHeads 3s;
@@ -49,7 +54,12 @@ button {
 }
 .tailsClass {
     background-image:url(tails.png);
-    transform:rotateY(-180deg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height: max-content;
+    width: max-content;
+    /* transform:rotateY(-180deg); */
 }
 .animate-tails {
     animation:flipTails 3s;
