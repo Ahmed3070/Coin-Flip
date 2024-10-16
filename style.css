@@ -60,7 +60,7 @@ button {
     background-position:center;
     height: max-content;
     width: max-content;
-    /* transform:rotateY(-180deg); */
+    transform:rotateY(-180deg);
 }
 .animate-tails {
     animation:flipTails 3s;
