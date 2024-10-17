@@ -16,7 +16,7 @@ function processResult(result){
         tails.innerHTML = tailsCount;
     }
 
-    statusLabel.innerText = result;
+    statusLabel.innerText = result.toUpperCase();
 }
 
 function flipCoin() {
