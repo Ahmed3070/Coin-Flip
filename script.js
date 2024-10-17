@@ -1,8 +1,8 @@
 const coin = document.querySelector("#coin");
 const button = document.querySelector("#flip");
 const statusLabel = document.querySelector("#status");
-const heads = document.querySelector("#headsCount");
-const tails = document.querySelector("#tailsCount");
+const heads = document.querySelector(".headsCount");
+const tails = document.querySelector(".tailsCount");
 
 let headsCount = 0;
 let tailsCount = 0;
