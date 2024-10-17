@@ -64,3 +64,7 @@ button {
         transform:rotateY(1620deg);
     }
 }
+#result {
+    font-weight:bold;
+    font-size:xx-large;
+}
