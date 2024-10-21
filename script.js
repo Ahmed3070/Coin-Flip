@@ -27,6 +27,7 @@ function flipCoin() {
         coin.setAttribute('class','animate-' + result);
 
         setTimeout(()=> {
+            coin.setAttribute('class','animate-');
             processResult(result);
         },2900);
     },100);
